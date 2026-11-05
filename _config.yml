@@ -1,79 +1,23 @@
-# ---------------------------------------------------------------
-#  Site settings — editable in Siteleaf under Settings → Metadata
-#  NOTE: every business detail below is a PLACEHOLDER. Replace the
-#  name, email, phone and form endpoint before going live.
-# ---------------------------------------------------------------
-title: "Sonoran Layer Co."          # placeholder business name
-tagline: "3D printing services in Tucson, Arizona"
-description: "Prototypes, replacement parts, models and small production runs, 3D printed in Tucson, Arizona."
-url: ""          # e.g. https://www.example.com
-baseurl: ""
-
-business:
-  city: "Tucson"
-  state: "Arizona"
-  state_abbr: "AZ"
-  email: "hello@example.com"        # placeholder
-  phone: "(520) 555-0100"           # placeholder (555-01xx is reserved for fiction)
-  hours: "Mon–Fri, 9am–5pm MST"     # placeholder
-  pickup_note: "Local pickup in Tucson by appointment. Shipping available across the US."  # placeholder
-  # Paste a form endpoint (e.g. Formspree, Basin, Getform) to receive
-  # contact submissions. Left blank, the form opens the visitor's email app.
-  form_endpoint: ""
-
-# ---------------------------------------------------------------
-#  Collections — each one appears as its own section in Siteleaf
-# ---------------------------------------------------------------
+---
+title: Sonoran Layer Co.
+timezone: UTC
 collections:
-  gallery:
-    output: false
-  plans:
-    output: false
-  materials:
-    output: false
-  faqs:
-    output: false
-
-# Default fields so new documents created in Siteleaf start with the
-# right metadata.
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  - scope: { path: "", type: "gallery" }
-    values:
-      category: "Prototypes"
-      material: ""
-      process: "FDM"
-      dimensions: ""
-      image: "/uploads/"
-      featured: false
-      order: 99
-  - scope: { path: "", type: "plans" }
-    values:
-      price: ""
-      unit: ""
-      features: []
-      highlighted: false
-      order: 99
-  - scope: { path: "", type: "materials" }
-    values:
-      process: "FDM"
-      rate_per_gram: 0
-      colors: ""
-      best_for: ""
-      order: 99
-  - scope: { path: "", type: "faqs" }
-    values:
-      order: 99
-
-markdown: kramdown
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
 permalink: pretty
-
-exclude:
-  - node_modules
-  - src
-  - package.json
-  - package-lock.json
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - .jekyll-cache
