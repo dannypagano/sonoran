@@ -1,30 +1,10 @@
----
 title: Sonoran Layer Co.
-timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-defaults:
-- scope:
-    path: ''
-    type: posts
-  values:
-    layout: post
-    permalink: "/posts/:title/"
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
 tagline: 3D printing services in Tucson, Arizona
-description: Prototypes, replacement parts, models and small production runs, 3D printed
-  in Tucson, Arizona.
-url: https://dannypagano.com/sonoran
+description: Prototypes, replacement parts, models and small production runs, 3D printed in Tucson, Arizona.
+timezone: America/Phoenix
+url: https://sonoran.siteleaf.net
 baseurl: ''
+
 business:
   city: Tucson
   state: Arizona
@@ -32,7 +12,36 @@ business:
   email: hello@example.com
   phone: "(520) 555-0100"
   hours: Mon–Fri, 9am–5pm MST
-  pickup_note: Local pickup in Tucson by appointment. Shipping available across the
-    US.
+  pickup_note: Local pickup in Tucson by appointment. Shipping available across the US.
   form_endpoint: ''
+
+collections:
+  gallery:
+    title: Gallery
+    output: false
+  plans:
+    title: Plans
+    output: false
+  materials:
+    title: Materials
+    output: false
+  faqs:
+    title: FAQs
+    output: false
+  uploads:
+    title: Uploads
+    output: true
+
+defaults:
+- scope: { path: '', type: gallery }
+  values: { category: Prototypes, material: '', process: FDM, dimensions: '', image: /uploads/, order: 99 }
+- scope: { path: '', type: plans }
+  values: { price: '', unit: '', features: [], highlighted: false, order: 99 }
+- scope: { path: '', type: materials }
+  values: { process: FDM, rate_per_gram: 0, colors: '', best_for: '', order: 99 }
+- scope: { path: '', type: faqs }
+  values: { order: 99 }
+
+markdown: kramdown
 permalink: pretty
+exclude: [node_modules, src, package.json, package-lock.json, README.md, Gemfile, Gemfile.lock, vendor, .jekyll-cache]
