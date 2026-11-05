@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Equipment mounting bracket (placeholder image)">
+<defs>
+<pattern id="p-mounting-bracket" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="1.6" fill="#000" fill-opacity="0.09"/></pattern>
+<pattern id="g-mounting-bracket" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#1a1917" stroke-opacity="0.06"/></pattern>
+<radialGradient id="v-mounting-bracket" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#fff" stop-opacity="0.55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<clipPath id="c-mounting-bracket"><path d="M491.7,332.5 L838.2,532.5 L708.3,607.5 L361.8,407.5 Z" fill-rule="evenodd"/><path d="M361.8,457.5 L708.3,657.5 L708.3,607.5 L361.8,407.5 Z" fill-rule="evenodd"/><path d="M838.2,582.5 L708.3,657.5 L708.3,607.5 L838.2,532.5 Z" fill-rule="evenodd"/><path d="M491.7,45.0 L556.7,82.5 L426.8,157.5 L361.8,120.0 Z" fill-rule="evenodd"/><path d="M361.8,407.5 L426.8,445.0 L426.8,157.5 L361.8,120.0 Z" fill-rule="evenodd"/><path d="M556.7,370.0 L426.8,445.0 L426.8,157.5 L556.7,82.5 Z" fill-rule="evenodd"/></clipPath>
+</defs>
+<rect width="1200" height="900" fill="#e8eae3"/>
+<rect width="1200" height="900" fill="url(#g-mounting-bracket)"/>
+<rect width="1200" height="900" fill="url(#v-mounting-bracket)"/>
+<ellipse cx="600" cy="800" rx="330" ry="34" fill="#1a1917" fill-opacity="0.10"/>
+<path d="M491.7,332.5 L838.2,532.5 L708.3,607.5 L361.8,407.5 Z" fill="#859384" fill-rule="evenodd"/>
+<path d="M361.8,457.5 L708.3,657.5 L708.3,607.5 L361.8,407.5 Z" fill="#6b7c6a" fill-rule="evenodd"/>
+<path d="M838.2,582.5 L708.3,657.5 L708.3,607.5 L838.2,532.5 Z" fill="#576556" fill-rule="evenodd"/>
+<path d="M491.7,45.0 L556.7,82.5 L426.8,157.5 L361.8,120.0 Z" fill="#859384" fill-rule="evenodd"/>
+<path d="M361.8,407.5 L426.8,445.0 L426.8,157.5 L361.8,120.0 Z" fill="#6b7c6a" fill-rule="evenodd"/>
+<path d="M556.7,370.0 L426.8,445.0 L426.8,157.5 L556.7,82.5 Z" fill="#576556" fill-rule="evenodd"/>
+<rect width="1200" height="900" fill="url(#p-mounting-bracket)" clip-path="url(#c-mounting-bracket)"/>
+<text x="48" y="856" font-family="ui-monospace, Menlo, monospace" font-size="20" letter-spacing="3" fill="#1a1917" fill-opacity="0.45">PLACEHOLDER · EQUIPMENT MOUNTING BRACKET</text>
+</svg>

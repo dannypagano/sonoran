@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Electronics enclosure (placeholder image)">
+<defs>
+<pattern id="p-electronics-enclosure" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="1.6" fill="#000" fill-opacity="0.09"/></pattern>
+<pattern id="g-electronics-enclosure" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#1a1917" stroke-opacity="0.06"/></pattern>
+<radialGradient id="v-electronics-enclosure" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#fff" stop-opacity="0.55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<clipPath id="c-electronics-enclosure"><path d="M550.2,209.3 L908.7,416.2 L649.8,565.8 L291.3,358.8 Z" fill-rule="evenodd"/><path d="M291.3,531.2 L649.8,738.2 L649.8,565.8 L291.3,358.8 Z" fill-rule="evenodd"/><path d="M908.7,588.8 L649.8,738.2 L649.8,565.8 L908.7,416.2 Z" fill-rule="evenodd"/><path d="M550.2,141.4 L908.7,348.4 L649.8,497.9 L291.3,290.9 Z" fill-rule="evenodd"/><path d="M291.3,330.0 L649.8,537.0 L649.8,497.9 L291.3,290.9 Z" fill-rule="evenodd"/><path d="M908.7,387.5 L649.8,537.0 L649.8,497.9 L908.7,348.4 Z" fill-rule="evenodd"/></clipPath>
+</defs>
+<rect width="1200" height="900" fill="#d9d3c8"/>
+<rect width="1200" height="900" fill="url(#g-electronics-enclosure)"/>
+<rect width="1200" height="900" fill="url(#v-electronics-enclosure)"/>
+<ellipse cx="600" cy="800" rx="330" ry="34" fill="#1a1917" fill-opacity="0.10"/>
+<path d="M550.2,209.3 L908.7,416.2 L649.8,565.8 L291.3,358.8 Z" fill="#ece8e0" fill-rule="evenodd"/>
+<path d="M291.3,531.2 L649.8,738.2 L649.8,565.8 L291.3,358.8 Z" fill="#e9e4da" fill-rule="evenodd"/>
+<path d="M908.7,588.8 L649.8,738.2 L649.8,565.8 L908.7,416.2 Z" fill="#bfbab2" fill-rule="evenodd"/>
+<path d="M550.2,141.4 L908.7,348.4 L649.8,497.9 L291.3,290.9 Z" fill="#ede9e1" fill-rule="evenodd"/>
+<path d="M291.3,330.0 L649.8,537.0 L649.8,497.9 L291.3,290.9 Z" fill="#eae5db" fill-rule="evenodd"/>
+<path d="M908.7,387.5 L649.8,537.0 L649.8,497.9 L908.7,348.4 Z" fill="#bfbbb3" fill-rule="evenodd"/>
+<rect width="1200" height="900" fill="url(#p-electronics-enclosure)" clip-path="url(#c-electronics-enclosure)"/>
+<text x="48" y="856" font-family="ui-monospace, Menlo, monospace" font-size="20" letter-spacing="3" fill="#1a1917" fill-opacity="0.45">PLACEHOLDER · ELECTRONICS ENCLOSURE</text>
+</svg>

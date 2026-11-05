@@ -1,0 +1,33 @@
+{%- assign nav = "Work|/,Pricing|/pricing/,Contact|/contact/" | split: "," -%}
+<header class="sticky top-0 z-40 border-b border-ink/5 bg-bone/85 backdrop-blur">
+  <div class="mx-auto flex h-16 max-w-6xl items-center justify-between px-5 sm:px-8">
+    <a href="{{ '/' | relative_url }}" class="flex items-center gap-2.5 text-ink">
+      {% include logo.html %}
+      <span class="font-display text-[1.05rem] font-semibold tracking-tight">{{ site.title }}</span>
+    </a>
+
+    <nav aria-label="Primary" class="hidden items-center gap-1 sm:flex">
+      {%- for item in nav -%}
+        {%- assign parts = item | split: "|" -%}
+        {%- assign active = false -%}
+        {%- if page.url == parts[1] -%}{%- assign active = true -%}{%- endif -%}
+        <a href="{{ parts[1] | relative_url }}"
+           class="rounded-full px-4 py-2 text-sm transition-colors {% if active %}bg-ink text-bone{% else %}text-ink-soft hover:text-ink hover:bg-ink/5{% endif %}"
+           {% if active %}aria-current="page"{% endif %}>{{ parts[0] }}</a>
+      {%- endfor -%}
+    </nav>
+
+    <details class="group relative sm:hidden">
+      <summary class="flex h-10 w-10 cursor-pointer list-none items-center justify-center rounded-full hover:bg-ink/5" aria-label="Menu">
+        <svg viewBox="0 0 24 24" class="h-5 w-5 group-open:hidden" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 8h16M4 16h16"/></svg>
+        <svg viewBox="0 0 24 24" class="hidden h-5 w-5 group-open:block" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M6 6l12 12M18 6L6 18"/></svg>
+      </summary>
+      <nav aria-label="Mobile" class="absolute right-0 top-12 w-48 rounded-2xl border border-ink/10 bg-bone p-2 shadow-xl shadow-ink/5">
+        {%- for item in nav -%}
+          {%- assign parts = item | split: "|" -%}
+          <a href="{{ parts[1] | relative_url }}" class="block rounded-xl px-4 py-2.5 text-sm {% if page.url == parts[1] %}bg-ink text-bone{% else %}text-ink hover:bg-ink/5{% endif %}">{{ parts[0] }}</a>
+        {%- endfor -%}
+      </nav>
+    </details>
+  </div>
+</header>

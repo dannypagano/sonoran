@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Saguaro desk figure (placeholder image)">
+<defs>
+<pattern id="p-saguaro-figure" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="1.6" fill="#000" fill-opacity="0.09"/></pattern>
+<pattern id="g-saguaro-figure" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#1a1917" stroke-opacity="0.06"/></pattern>
+<radialGradient id="v-saguaro-figure" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#fff" stop-opacity="0.55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<clipPath id="c-saguaro-figure"><path d="M550,200.0 A50.0,50.0 0 0 1 650,200.0 L650,770 L550,770 Z M400,340.0 A40.0,40.0 0 0 1 480,340.0 L480,500 L400,500 Z M400,460 L400,500 Q400,560 470,560 L560,560 L560,480 L480,480 L480,460 Z M720,270.0 A40.0,40.0 0 0 1 800,270.0 L800,450 L720,450 Z M800,420 L800,470 Q800,520 730,520 L640,520 L640,440 L720,440 L720,420 Z" fill-rule="evenodd"/><path d="M380,770 L820,770 L790,820 L410,820 Z" fill-rule="evenodd"/></clipPath>
+</defs>
+<rect width="1200" height="900" fill="#ece6dc"/>
+<rect width="1200" height="900" fill="url(#g-saguaro-figure)"/>
+<rect width="1200" height="900" fill="url(#v-saguaro-figure)"/>
+<ellipse cx="600" cy="800" rx="330" ry="34" fill="#1a1917" fill-opacity="0.10"/>
+<path d="M550,200.0 A50.0,50.0 0 0 1 650,200.0 L650,770 L550,770 Z M400,340.0 A40.0,40.0 0 0 1 480,340.0 L480,500 L400,500 Z M400,460 L400,500 Q400,560 470,560 L560,560 L560,480 L480,480 L480,460 Z M720,270.0 A40.0,40.0 0 0 1 800,270.0 L800,450 L720,450 Z M800,420 L800,470 Q800,520 730,520 L640,520 L640,440 L720,440 L720,420 Z" fill="#5f7a55" fill-rule="evenodd"/>
+<path d="M380,770 L820,770 L790,820 L410,820 Z" fill="#34432e" fill-rule="evenodd"/>
+<path d="M575,170 L575,770" fill="none" stroke="#000" stroke-opacity="0.12" stroke-width="3"/>
+<path d="M600,170 L600,770" fill="none" stroke="#000" stroke-opacity="0.12" stroke-width="3"/>
+<path d="M625,170 L625,770" fill="none" stroke="#000" stroke-opacity="0.12" stroke-width="3"/>
+<rect width="1200" height="900" fill="url(#p-saguaro-figure)" clip-path="url(#c-saguaro-figure)"/>
+<text x="48" y="856" font-family="ui-monospace, Menlo, monospace" font-size="20" letter-spacing="3" fill="#1a1917" fill-opacity="0.45">PLACEHOLDER · SAGUARO DESK FIGURE</text>
+</svg>

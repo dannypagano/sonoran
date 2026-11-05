@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Architectural site model (placeholder image)">
+<defs>
+<pattern id="p-site-model" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="1.6" fill="#000" fill-opacity="0.09"/></pattern>
+<pattern id="g-site-model" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#1a1917" stroke-opacity="0.06"/></pattern>
+<radialGradient id="v-site-model" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#fff" stop-opacity="0.55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<clipPath id="c-site-model"><path d="M419.0,324.5 L517.7,381.5 L419.0,438.5 L320.3,381.5 Z" fill-rule="evenodd"/><path d="M320.3,514.5 L419.0,571.5 L419.0,438.5 L320.3,381.5 Z" fill-rule="evenodd"/><path d="M517.7,514.5 L419.0,571.5 L419.0,438.5 L517.7,381.5 Z" fill-rule="evenodd"/><path d="M649.4,172.5 L739.9,224.8 L649.4,277.0 L558.9,224.8 Z" fill-rule="evenodd"/><path d="M558.9,509.8 L649.4,562.0 L649.4,277.0 L558.9,224.8 Z" fill-rule="evenodd"/><path d="M739.9,509.8 L649.4,562.0 L649.4,277.0 L739.9,224.8 Z" fill-rule="evenodd"/><path d="M764.5,353.0 L863.3,410.0 L748.1,476.5 L649.4,419.5 Z" fill-rule="evenodd"/><path d="M649.4,609.5 L748.1,666.5 L748.1,476.5 L649.4,419.5 Z" fill-rule="evenodd"/><path d="M863.3,600.0 L748.1,666.5 L748.1,476.5 L863.3,410.0 Z" fill-rule="evenodd"/><path d="M501.3,476.5 L616.5,543.0 L534.2,590.5 L419.0,524.0 Z" fill-rule="evenodd"/><path d="M419.0,609.5 L534.2,676.0 L534.2,590.5 L419.0,524.0 Z" fill-rule="evenodd"/><path d="M616.5,628.5 L534.2,676.0 L534.2,590.5 L616.5,543.0 Z" fill-rule="evenodd"/><path d="M863.3,277.0 L937.3,319.8 L863.3,362.5 L789.2,319.8 Z" fill-rule="evenodd"/><path d="M789.2,680.8 L863.3,723.5 L863.3,362.5 L789.2,319.8 Z" fill-rule="evenodd"/><path d="M937.3,680.8 L863.3,723.5 L863.3,362.5 L937.3,319.8 Z" fill-rule="evenodd"/><path d="M624.7,585.8 L756.3,661.8 L657.6,718.8 L526.0,642.8 Z" fill-rule="evenodd"/><path d="M526.0,699.8 L657.6,775.8 L657.6,718.8 L526.0,642.8 Z" fill-rule="evenodd"/><path d="M756.3,718.8 L657.6,775.8 L657.6,718.8 L756.3,661.8 Z" fill-rule="evenodd"/></clipPath>
+</defs>
+<rect width="1200" height="900" fill="#cfc7ba"/>
+<rect width="1200" height="900" fill="url(#g-site-model)"/>
+<rect width="1200" height="900" fill="url(#v-site-model)"/>
+<ellipse cx="600" cy="800" rx="330" ry="34" fill="#1a1917" fill-opacity="0.10"/>
+<path d="M419.0,324.5 L517.7,381.5 L419.0,438.5 L320.3,381.5 Z" fill="#efebe4" fill-rule="evenodd"/>
+<path d="M320.3,514.5 L419.0,571.5 L419.0,438.5 L320.3,381.5 Z" fill="#ece7df" fill-rule="evenodd"/>
+<path d="M517.7,514.5 L419.0,571.5 L419.0,438.5 L517.7,381.5 Z" fill="#c1bdb6" fill-rule="evenodd"/>
+<path d="M649.4,172.5 L739.9,224.8 L649.4,277.0 L558.9,224.8 Z" fill="#efebe4" fill-rule="evenodd"/>
+<path d="M558.9,509.8 L649.4,562.0 L649.4,277.0 L558.9,224.8 Z" fill="#ece7df" fill-rule="evenodd"/>
+<path d="M739.9,509.8 L649.4,562.0 L649.4,277.0 L739.9,224.8 Z" fill="#c1bdb6" fill-rule="evenodd"/>
+<path d="M764.5,353.0 L863.3,410.0 L748.1,476.5 L649.4,419.5 Z" fill="#efebe4" fill-rule="evenodd"/>
+<path d="M649.4,609.5 L748.1,666.5 L748.1,476.5 L649.4,419.5 Z" fill="#ece7df" fill-rule="evenodd"/>
+<path d="M863.3,600.0 L748.1,666.5 L748.1,476.5 L863.3,410.0 Z" fill="#c1bdb6" fill-rule="evenodd"/>
+<path d="M501.3,476.5 L616.5,543.0 L534.2,590.5 L419.0,524.0 Z" fill="#efebe4" fill-rule="evenodd"/>
+<path d="M419.0,609.5 L534.2,676.0 L534.2,590.5 L419.0,524.0 Z" fill="#ece7df" fill-rule="evenodd"/>
+<path d="M616.5,628.5 L534.2,676.0 L534.2,590.5 L616.5,543.0 Z" fill="#c1bdb6" fill-rule="evenodd"/>
+<path d="M863.3,277.0 L937.3,319.8 L863.3,362.5 L789.2,319.8 Z" fill="#efebe4" fill-rule="evenodd"/>
+<path d="M789.2,680.8 L863.3,723.5 L863.3,362.5 L789.2,319.8 Z" fill="#ece7df" fill-rule="evenodd"/>
+<path d="M937.3,680.8 L863.3,723.5 L863.3,362.5 L937.3,319.8 Z" fill="#c1bdb6" fill-rule="evenodd"/>
+<path d="M624.7,585.8 L756.3,661.8 L657.6,718.8 L526.0,642.8 Z" fill="#efebe4" fill-rule="evenodd"/>
+<path d="M526.0,699.8 L657.6,775.8 L657.6,718.8 L526.0,642.8 Z" fill="#ece7df" fill-rule="evenodd"/>
+<path d="M756.3,718.8 L657.6,775.8 L657.6,718.8 L756.3,661.8 Z" fill="#c1bdb6" fill-rule="evenodd"/>
+<rect width="1200" height="900" fill="url(#p-site-model)" clip-path="url(#c-site-model)"/>
+<text x="48" y="856" font-family="ui-monospace, Menlo, monospace" font-size="20" letter-spacing="3" fill="#1a1917" fill-opacity="0.45">PLACEHOLDER · ARCHITECTURAL SITE MODEL</text>
+</svg>

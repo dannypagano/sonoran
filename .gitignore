@@ -1,0 +1,9 @@
+_site/
+.jekyll-cache/
+.sass-cache/
+node_modules/
+vendor/
+.DS_Store
+# NOTE: assets/css/site.css and assets/js/app.js are build outputs but are
+# intentionally committed — Siteleaf builds with Jekyll only and does not
+# run npm, so the compiled files must live in the repo.

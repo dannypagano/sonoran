@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Faceted lamp shade (placeholder image)">
+<defs>
+<pattern id="p-faceted-lamp" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="1.6" fill="#000" fill-opacity="0.09"/></pattern>
+<pattern id="g-faceted-lamp" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#1a1917" stroke-opacity="0.06"/></pattern>
+<radialGradient id="v-faceted-lamp" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#fff" stop-opacity="0.55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<clipPath id="c-faceted-lamp"><path d="M480.0,200.0 L483.0,200.0 L278.3,700.0 L270.0,700.0 Z" fill-rule="evenodd"/><path d="M483.0,200.0 L491.9,200.0 L302.7,700.0 L278.3,700.0 Z" fill-rule="evenodd"/><path d="M491.9,200.0 L506.2,200.0 L342.0,700.0 L302.7,700.0 Z" fill-rule="evenodd"/><path d="M506.2,200.0 L525.2,200.0 L394.2,700.0 L342.0,700.0 Z" fill-rule="evenodd"/><path d="M525.2,200.0 L547.9,200.0 L456.8,700.0 L394.2,700.0 Z" fill-rule="evenodd"/><path d="M547.9,200.0 L573.3,200.0 L526.6,700.0 L456.8,700.0 Z" fill-rule="evenodd"/><path d="M573.3,200.0 L600.0,200.0 L600.0,700.0 L526.6,700.0 Z" fill-rule="evenodd"/><path d="M600.0,200.0 L626.7,200.0 L673.4,700.0 L600.0,700.0 Z" fill-rule="evenodd"/><path d="M626.7,200.0 L652.1,200.0 L743.2,700.0 L673.4,700.0 Z" fill-rule="evenodd"/><path d="M652.1,200.0 L674.8,200.0 L805.8,700.0 L743.2,700.0 Z" fill-rule="evenodd"/><path d="M674.8,200.0 L693.8,200.0 L858.0,700.0 L805.8,700.0 Z" fill-rule="evenodd"/><path d="M693.8,200.0 L708.1,200.0 L897.3,700.0 L858.0,700.0 Z" fill-rule="evenodd"/><path d="M708.1,200.0 L717.0,200.0 L921.7,700.0 L897.3,700.0 Z" fill-rule="evenodd"/><path d="M717.0,200.0 L720.0,200.0 L930.0,700.0 L921.7,700.0 Z" fill-rule="evenodd"/></clipPath>
+</defs>
+<rect width="1200" height="900" fill="#d8cfc1"/>
+<rect width="1200" height="900" fill="url(#g-faceted-lamp)"/>
+<rect width="1200" height="900" fill="url(#v-faceted-lamp)"/>
+<ellipse cx="600" cy="800" rx="330" ry="34" fill="#1a1917" fill-opacity="0.10"/>
+<path d="M480.0,200.0 L483.0,200.0 L278.3,700.0 L270.0,700.0 Z" fill="#c8c2b8" fill-rule="evenodd"/>
+<path d="M483.0,200.0 L491.9,200.0 L302.7,700.0 L278.3,700.0 Z" fill="#dfd8cd" fill-rule="evenodd"/>
+<path d="M491.9,200.0 L506.2,200.0 L342.0,700.0 L302.7,700.0 Z" fill="#efe8dc" fill-rule="evenodd"/>
+<path d="M506.2,200.0 L525.2,200.0 L394.2,700.0 L342.0,700.0 Z" fill="#f0eadf" fill-rule="evenodd"/>
+<path d="M525.2,200.0 L547.9,200.0 L456.8,700.0 L394.2,700.0 Z" fill="#f1ebe1" fill-rule="evenodd"/>
+<path d="M547.9,200.0 L573.3,200.0 L526.6,700.0 L456.8,700.0 Z" fill="#f1ece2" fill-rule="evenodd"/>
+<path d="M573.3,200.0 L600.0,200.0 L600.0,700.0 L526.6,700.0 Z" fill="#f2ece2" fill-rule="evenodd"/>
+<path d="M600.0,200.0 L626.7,200.0 L673.4,700.0 L600.0,700.0 Z" fill="#f2ece2" fill-rule="evenodd"/>
+<path d="M626.7,200.0 L652.1,200.0 L743.2,700.0 L673.4,700.0 Z" fill="#f1ebe1" fill-rule="evenodd"/>
+<path d="M652.1,200.0 L674.8,200.0 L805.8,700.0 L743.2,700.0 Z" fill="#f0eadf" fill-rule="evenodd"/>
+<path d="M674.8,200.0 L693.8,200.0 L858.0,700.0 L805.8,700.0 Z" fill="#efe8dd" fill-rule="evenodd"/>
+<path d="M693.8,200.0 L708.1,200.0 L897.3,700.0 L858.0,700.0 Z" fill="#e4ddd2" fill-rule="evenodd"/>
+<path d="M708.1,200.0 L717.0,200.0 L921.7,700.0 L897.3,700.0 Z" fill="#cdc7bd" fill-rule="evenodd"/>
+<path d="M717.0,200.0 L720.0,200.0 L930.0,700.0 L921.7,700.0 Z" fill="#b5b0a7" fill-rule="evenodd"/>
+<path d="M600,40 L600,200" fill="none" stroke="#000" stroke-opacity="0.12" stroke-width="3"/>
+<rect width="1200" height="900" fill="url(#p-faceted-lamp)" clip-path="url(#c-faceted-lamp)"/>
+<text x="48" y="856" font-family="ui-monospace, Menlo, monospace" font-size="20" letter-spacing="3" fill="#1a1917" fill-opacity="0.45">PLACEHOLDER · FACETED LAMP SHADE</text>
+</svg>

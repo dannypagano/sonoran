@@ -1,0 +1,75 @@
+---
+layout: default
+---
+{%- assign items = site.gallery | sort: "order" -%}
+
+<section class="relative overflow-hidden">
+  <div class="bed-grid pointer-events-none absolute inset-0" aria-hidden="true"></div>
+  <div class="relative mx-auto max-w-6xl px-5 pb-16 pt-20 sm:px-8 sm:pt-28">
+    <p class="eyebrow">{{ page.eyebrow }}</p>
+    <h1 class="mt-5 max-w-3xl font-display text-5xl font-semibold leading-[1.02] tracking-tight text-balance sm:text-7xl">
+      {{ page.headline }}
+    </h1>
+    <div class="prose-body mt-6 max-w-xl">{{ content }}</div>
+    <div class="mt-9 flex flex-wrap gap-3">
+      <a href="{{ '/pricing/' | relative_url }}#estimate" class="btn-primary">
+        Estimate a print
+        <svg viewBox="0 0 20 20" class="h-4 w-4" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 10h12m-5-5 5 5-5 5"/></svg>
+      </a>
+      <a href="{{ '/contact/' | relative_url }}" class="btn-ghost">Start a project</a>
+    </div>
+
+    {%- if page.capabilities -%}
+    <ul class="mt-16 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-ink/10 bg-ink/10 sm:grid-cols-4">
+      {%- for cap in page.capabilities -%}
+      <li class="bg-bone px-5 py-5">
+        <p class="font-mono text-[0.7rem] uppercase tracking-[0.18em] text-clay">0{{ forloop.index }}</p>
+        <p class="mt-2 font-display text-base font-semibold tracking-tight">{{ cap.title }}</p>
+        <p class="mt-1 text-sm leading-snug text-muted">{{ cap.text }}</p>
+      </li>
+      {%- endfor -%}
+    </ul>
+    {%- endif -%}
+  </div>
+</section>
+
+<section class="mx-auto max-w-6xl px-5 sm:px-8" aria-labelledby="work-heading">
+  <div class="flex flex-wrap items-end justify-between gap-4 border-t border-ink/10 pt-10">
+    <div>
+      <p class="eyebrow">Gallery</p>
+      <h2 id="work-heading" class="mt-2 font-display text-3xl font-semibold tracking-tight sm:text-4xl">{{ page.gallery_heading | default: "Recent prints" }}</h2>
+    </div>
+    <p class="max-w-sm text-sm text-muted">{{ page.gallery_note }}</p>
+  </div>
+
+  <script type="application/json" id="gallery-data">
+  [{%- for item in items -%}
+    {
+      "id": {{ item.slug | jsonify }},
+      "title": {{ item.title | jsonify }},
+      "image": {{ item.image | relative_url | jsonify }},
+      "alt": {{ item.alt | default: item.title | jsonify }},
+      "category": {{ item.category | jsonify }},
+      "material": {{ item.material | jsonify }},
+      "process": {{ item.process | jsonify }},
+      "dimensions": {{ item.dimensions | jsonify }},
+      "description": {{ item.content | markdownify | strip_html | strip | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {%- endfor -%}]
+  </script>
+
+  <!-- React mounts here. The markup inside is the no-JavaScript fallback. -->
+  <div id="gallery-root" class="mt-8" data-contact-url="{{ '/contact/' | relative_url }}">
+    <ul class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {%- for item in items -%}
+      <li class="overflow-hidden rounded-[var(--radius-card)] bg-sand">
+        <img src="{{ item.image | relative_url }}" alt="{{ item.alt | default: item.title }}" class="aspect-[4/3] w-full object-cover" loading="lazy">
+        <div class="p-5">
+          <p class="font-display font-semibold">{{ item.title }}</p>
+          <p class="mt-1 font-mono text-xs text-muted">{{ item.material }} · {{ item.process }}</p>
+        </div>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>

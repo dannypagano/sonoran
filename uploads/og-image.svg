@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Sonoran Layer Co. (placeholder image)">
+<defs>
+<pattern id="p-og-image" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="1.6" fill="#000" fill-opacity="0.09"/></pattern>
+<pattern id="g-og-image" width="60" height="60" patternUnits="userSpaceOnUse"><path d="M60 0H0V60" fill="none" stroke="#1a1917" stroke-opacity="0.06"/></pattern>
+<radialGradient id="v-og-image" cx="50%" cy="45%" r="70%"><stop offset="0" stop-color="#fff" stop-opacity="0.55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<clipPath id="c-og-image"><path d="M130,720 L160,668 L1040,668 L1070,720 Z" fill-rule="evenodd"/><path d="M225,668 L255,616 L1003,616 L1033,668 Z" fill-rule="evenodd"/><path d="M263,616 L293,564 L938,564 L968,616 Z" fill-rule="evenodd"/><path d="M216,564 L246,512 L912,512 L942,564 Z" fill-rule="evenodd"/><path d="M265,512 L295,460 L852,460 L882,512 Z" fill-rule="evenodd"/><path d="M365,460 L395,408 L818,408 L848,460 Z" fill-rule="evenodd"/><path d="M398,408 L428,356 L832,356 L862,408 Z" fill-rule="evenodd"/><path d="M427,356 L457,304 L762,304 L792,356 Z" fill-rule="evenodd"/><path d="M437,304 L467,252 L683,252 L713,304 Z" fill-rule="evenodd"/></clipPath>
+</defs>
+<rect width="1200" height="900" fill="#f6f3ee"/>
+<rect width="1200" height="900" fill="url(#g-og-image)"/>
+<rect width="1200" height="900" fill="url(#v-og-image)"/>
+<ellipse cx="600" cy="800" rx="330" ry="34" fill="#1a1917" fill-opacity="0.10"/>
+<path d="M130,720 L160,668 L1040,668 L1070,720 Z" fill="#873e1f" fill-rule="evenodd"/>
+<path d="M225,668 L255,616 L1003,616 L1033,668 Z" fill="#904221" fill-rule="evenodd"/>
+<path d="M263,616 L293,564 L938,564 L968,616 Z" fill="#994623" fill-rule="evenodd"/>
+<path d="M216,564 L246,512 L912,512 L942,564 Z" fill="#a24a25" fill-rule="evenodd"/>
+<path d="M265,512 L295,460 L852,460 L882,512 Z" fill="#ab4e27" fill-rule="evenodd"/>
+<path d="M365,460 L395,408 L818,408 L848,460 Z" fill="#b4532a" fill-rule="evenodd"/>
+<path d="M398,408 L428,356 L832,356 L862,408 Z" fill="#b75b34" fill-rule="evenodd"/>
+<path d="M427,356 L457,304 L762,304 L792,356 Z" fill="#bb643f" fill-rule="evenodd"/>
+<path d="M437,304 L467,252 L683,252 L713,304 Z" fill="#bf6c49" fill-rule="evenodd"/>
+<rect width="1200" height="900" fill="url(#p-og-image)" clip-path="url(#c-og-image)"/>
+<text x="48" y="856" font-family="ui-monospace, Menlo, monospace" font-size="20" letter-spacing="3" fill="#1a1917" fill-opacity="0.45">PLACEHOLDER · SONORAN LAYER CO.</text>
+</svg>
