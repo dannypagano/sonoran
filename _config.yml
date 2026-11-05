@@ -1,6 +1,29 @@
----
-title: Sonoran Layer Co.
-timezone: UTC
+# ---------------------------------------------------------------
+#  Site settings — editable in Siteleaf under Settings → Metadata
+#  NOTE: every business detail below is a PLACEHOLDER. Replace the
+#  name, email, phone and form endpoint before going live.
+# ---------------------------------------------------------------
+title: "Sonoran Layer Co."          # placeholder business name
+tagline: "3D printing services in Tucson, Arizona"
+description: "Prototypes, replacement parts, models and small production runs, 3D printed in Tucson, Arizona."
+url: "https://dannypagano.com/sonoran"          # e.g. https://www.example.com
+baseurl: "/sonoran"
+
+business:
+  city: "Tucson"
+  state: "Arizona"
+  state_abbr: "AZ"
+  email: "hello@example.com"        # placeholder
+  phone: "(520) 555-0100"           # placeholder (555-01xx is reserved for fiction)
+  hours: "Mon–Fri, 9am–5pm MST"     # placeholder
+  pickup_note: "Local pickup in Tucson by appointment. Shipping available across the US."  # placeholder
+  # Paste a form endpoint (e.g. Formspree, Basin, Getform) to receive
+  # contact submissions. Left blank, the form opens the visitor's email app.
+  form_endpoint: ""
+
+# ---------------------------------------------------------------
+#  Collections — each one appears as its own section in Siteleaf
+# ---------------------------------------------------------------
 collections:
   posts:
     title: Posts
