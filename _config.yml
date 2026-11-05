@@ -25,55 +25,22 @@ business:
 #  Collections — each one appears as its own section in Siteleaf
 # ---------------------------------------------------------------
 collections:
-  gallery:
-    output: false
-  plans:
-    output: false
-  materials:
-    output: false
-  faqs:
-    output: false
-
-# Default fields so new documents created in Siteleaf start with the
-# right metadata.
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 defaults:
-  - scope: { path: "", type: "gallery" }
-    values:
-      category: "Prototypes"
-      material: ""
-      process: "FDM"
-      dimensions: ""
-      image: "/uploads/"
-      featured: false
-      order: 99
-  - scope: { path: "", type: "plans" }
-    values:
-      price: ""
-      unit: ""
-      features: []
-      highlighted: false
-      order: 99
-  - scope: { path: "", type: "materials" }
-    values:
-      process: "FDM"
-      rate_per_gram: 0
-      colors: ""
-      best_for: ""
-      order: 99
-  - scope: { path: "", type: "faqs" }
-    values:
-      order: 99
-
-markdown: kramdown
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
 permalink: pretty
-
-exclude:
-  - node_modules
-  - src
-  - package.json
-  - package-lock.json
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - .jekyll-cache
