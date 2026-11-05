@@ -6,7 +6,7 @@
 title: "Sonoran Layer Co."          # placeholder business name
 tagline: "3D printing services in Tucson, Arizona"
 description: "Prototypes, replacement parts, models and small production runs, 3D printed in Tucson, Arizona."
-url: ""          # e.g. https://www.example.com
+url: "https://dannypagano.com/sonoran"          # e.g. https://www.example.com
 baseurl: ""
 
 business:
